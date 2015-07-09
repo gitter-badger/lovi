@@ -1,0 +1,13 @@
+[{
+  "binding": "dummy",
+  "resources" : [{
+    "name": "water-meter",
+    "value": 520,
+    "unit": "ticks"
+  }, {
+    "name" : "power-consumption",
+    "value" : "380",
+    "unit" : "kwh"
+    }]
+}
+]

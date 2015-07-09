@@ -1,0 +1,6 @@
+{
+    "preset" : "airbnb",
+    "requireTrailingComma" : null,
+    "disallowSpaceAfterObjectKeys" : null,
+    "disallowQuotedKeysInObjects" : null
+}

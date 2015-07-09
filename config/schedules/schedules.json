@@ -1,0 +1,14 @@
+[{
+  "id" : "read-dummy-value",
+  "cron" : "*/5 * * * * *",
+  "operation" : {
+    "name" : "read"
+  },
+  "input" : "lovi://dummy/water-meter",
+  "uri" : "lovi:dummy:water-meter",
+  "pipeTo" : {
+      "operation" : { "name" : "scale", "factor" : "1:52" },
+      "output" : "water-consumption",
+      "unit" : "liter"
+  }
+}]
